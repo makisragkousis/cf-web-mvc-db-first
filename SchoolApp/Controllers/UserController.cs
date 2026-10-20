@@ -135,7 +135,4 @@ public class UserController : Controller
         _logger.LogInformation("User {Username} logged out.", username);
         return RedirectToAction("Login", "User");
     }
-
-
-
 }
